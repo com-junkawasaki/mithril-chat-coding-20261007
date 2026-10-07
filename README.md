@@ -19,3 +19,7 @@
 This is a real `.mith` static report, generated in ordinary Mithril Chat and edited through the shared Desktop source editor. The model selects a bounded template and five fields; the harness emits Mithril Form and the production compiler executes infer/query/validate/compile/test. The static dashboard/report/directory catalog does not support arbitrary application logic, repository execution, or general UI authoring.
 
 Inference uses api.mithril.fund, not a direct OpenRouter request. The 6.263-second measurement covers one coding proposal, source emission, compilation and bounded semantic checks; Chat orchestration and GitHub publication are excluded. Cost is unknown, not zero. Publication used the existing GitHub CLI account explicitly; this is not evidence of a new Web GitHub connection. No general performance or reliability advantage is claimed.
+
+## App の通常 Chat でも確認
+
+後続の本番 App 検証でも、通常 Chat → mithril_code → 実 .mith → 共有ソースエディター → 明示コンパイルが成功しました。[実ソースと記録](qa/app/) を残しています。コーディング提案から検査まで12.609秒、入力1287・出力114 tokens、料金null。Chat の前後の応答・公開を含まない測定です。この App 成果物の GitHub 保存は UI で行っていません。
